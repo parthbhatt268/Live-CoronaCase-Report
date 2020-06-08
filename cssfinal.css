@@ -1,0 +1,173 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #111;
+  color: white;
+  float: left;
+  border: 10px black;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  height: 10%
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.up{
+  display: inline-block;
+  width: 50%;
+  height:20%;
+}
+.down{
+  display: inline-block;
+  width: 50%;
+  height:20%;
+}
+.up1{
+  display: inline-block;
+  width: 30%;
+  height:15%;
+}
+.down1{
+  display: inline-block;
+  width: 30%;
+  height:15%;
+}
+#pre1,#pre2,#pre3,#pre4{
+  width: 50%;
+  height: 10%;
+  padding-left: 40px;
+}
+#sys1,#sys2,#sys3,#sys4,#sys5,#sys6{
+  width: 30%;
+  height: 10%;
+  display: inline-block;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/*------------
+.case1{
+  background-color: rgba(255,0,0,0.5);
+  height: 100;
+  width: 250;
+  color: red;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10%;
+}
+.case2{
+  background-color: rgba(0,255,0,0.5);
+  height: 100;
+  width: 250;
+  color:green ;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10%;
+}
+.case3{
+  background-color: rgba(255,255,255,0.5);
+  height: 100;
+  width: 250;
+  color: black;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10%;
+}
+/*------------*/
+#Home {background-color: #073563;}
+#News {background-color: rgb(0,155,119);}
+/*#About {background-color: rgb(0,155,119);}*/
+#Symptoms {background-color: rgb(0,100,255);}
+#Precautions {background-color: rgb(256,56,56);}
+#one{
+  font-size: 200%;
+  color:white;
+  
+  clear: none;
+
+}
+#mySelect{
+  text-align: center;
+  margin-left: 36%;
+  margin-top: 10;
+  margin-right: 30%;
+  width: 400;
+  height: 60;
+}
+#mySelect:hover{
+  color: #555;
+}
+
+footer{
+  display: block;
+  background-color: black;
+  color: white;
+  height: 20%
+}
+
+.blink_img {
+  animation: blinker 1s linear infinite;
+  padding-left: 40%
+
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+@keyframes blin {
+  50% { opacity: 0; }
+
+
+
+
+/*-------------------------------*/
+
+
+
+
+
+
+
+
+
+
